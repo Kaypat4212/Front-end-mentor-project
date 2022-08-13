@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: hsl(0, 100%, 74%);
+    background-image: url(/images/bg-intro-desktop.png);
+}
+
+section {
+    display: flex;
+}
+
+#reg {
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-stretch: expanded;
+    font-weight: 900;
+    color: black;
+}
+
+#reg:hover {
+    background-color: hsl(154, 59%, 51%);
+    opacity: 50%;
+}
+
+#h1 {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    font-family: "Inter", sans-serif;
+    margin: 30px 50px;
+    margin-top: 100px;
+}
+
+#p1 {
+    font-weight: 400;
+    text-align: center;
+    font-family: "Inter", sans-serif;
+    position: inherit;
+}
+
+#btn {
+    width: 100%;
+    background-color: hsl(248, 32%, 49%);
+    padding: 25px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-family: "Inter", sans-serif;
+    font-stretch: expanded;
+}
+
+form {
+    width: 100%;
+    background-color: white;
+    padding: 30px;
+    font-weight: bold;
+}
+
+button {
+    width: 100%;
+    color: white;
+    background-color: hsl(154, 59%, 51%);
+    font-family: "Inter", sans-serif;
+    font-size: 16px;
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    border-radius: 5px;
+    border: none;
+}
+
+button:hover {
+    background-color: hsl(154, 55%, 34%);
+}
+
+button:active {
+    background-color: rgb(5, 66, 31);
+    box-shadow: 0 5px rgb(35, 76, 56);
+}
+
+footer {
+    color: white;
+    padding: 10px;
+    padding-top: 10px;
+    margin-top: 300px;
+}
+
+@media (max-width: 375px) {
+    body {
+        background-color: red;
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+}
+
+@media (min-width: 1440px) {
+    body {
+        background-color: blue;
+        background-image: url(/images/bg-intro-mobile.png);
+    }
+}
